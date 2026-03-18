@@ -1,0 +1,31 @@
+{
+  "country_code": "XX",
+  "country_name": "Template Country",
+  "fiscal_year": "YYYY-YY",
+  "currency": "XXX",
+  "currency_symbol": "X",
+  "last_updated": "YYYY-MM-DD",
+  "source_url": "https://official.gov.domain/gazette",
+  "status": "PASSED_ACT",
+  "regimes": ["default"],
+  "filing_statuses": ["individual"],
+  "brackets": {
+    "default": {
+      "individual": [
+        { "min": 0, "max": 0, "rate": 0.0 }
+      ]
+    }
+  },
+  "standard_deduction": 0,
+  "deductions": {},
+  "rebates": [],
+  "surcharges": [],
+  "cess": 0.0,
+  "personal_allowance": 0,
+  "social_security": {
+    "employee_rate": 0.0,
+    "employer_rate": 0.0,
+    "wage_base": 0
+  },
+  "notes": ""
+}

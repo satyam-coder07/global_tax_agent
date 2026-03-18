@@ -1,0 +1,82 @@
+{
+  "country_code": "GB",
+  "country_name": "United Kingdom",
+  "fiscal_year": "2025-26",
+  "currency": "GBP",
+  "currency_symbol": "\u00a3",
+  "last_updated": "2025-04-06",
+  "source_url": "https://www.gov.uk/income-tax-rates",
+  "status": "PASSED_ACT",
+  "regimes": ["default"],
+  "filing_statuses": ["individual"],
+  "personal_allowance": 12570,
+  "personal_allowance_taper_threshold": 100000,
+  "brackets": {
+    "default": {
+      "individual": [
+        { "min": 0,      "max": 12570,   "rate": 0.00, "band": "Personal Allowance" },
+        { "min": 12571,  "max": 50270,   "rate": 0.20, "band": "Basic Rate" },
+        { "min": 50271,  "max": 125140,  "rate": 0.40, "band": "Higher Rate" },
+        { "min": 125141, "max": null,    "rate": 0.45, "band": "Additional Rate" }
+      ],
+      "scotland": [
+        { "min": 0,      "max": 12570,   "rate": 0.00, "band": "Personal Allowance" },
+        { "min": 12571,  "max": 14876,   "rate": 0.19, "band": "Starter Rate" },
+        { "min": 14877,  "max": 26561,   "rate": 0.20, "band": "Basic Rate" },
+        { "min": 26562,  "max": 43662,   "rate": 0.21, "band": "Intermediate Rate" },
+        { "min": 43663,  "max": 75000,   "rate": 0.42, "band": "Higher Rate" },
+        { "min": 75001,  "max": 125140,  "rate": 0.45, "band": "Advanced Rate" },
+        { "min": 125141, "max": null,    "rate": 0.48, "band": "Top Rate" }
+      ]
+    }
+  },
+  "standard_deduction": 0,
+  "deductions": {
+    "pension_relief": {
+      "label": "Pension Contributions (Full Tax Relief at Marginal Rate)",
+      "limit": 60000,
+      "annual_allowance": 60000,
+      "source": "https://www.gov.uk/tax-on-your-private-pension/annual-allowance"
+    },
+    "ISA": {
+      "label": "Individual Savings Account (ISA) — Tax-Free Growth",
+      "limit": 20000,
+      "source": "https://www.gov.uk/individual-savings-accounts"
+    },
+    "marriage_allowance": {
+      "label": "Marriage Allowance Transfer (10% of Personal Allowance to Spouse)",
+      "limit": 1260,
+      "source": "https://www.gov.uk/marriage-allowance"
+    },
+    "gift_aid": {
+      "label": "Gift Aid Charitable Donations (Basic Rate Relief)",
+      "limit": null,
+      "source": "https://www.gov.uk/donating-to-charity/gift-aid"
+    },
+    "trading_allowance": {
+      "label": "Trading / Property Income Allowance",
+      "limit": 1000,
+      "source": "https://www.gov.uk/guidance/tax-free-allowances-on-property-and-trading-income"
+    }
+  },
+  "rebates": [],
+  "national_insurance": {
+    "class1_primary": {
+      "label": "Class 1 Primary NIC (Employee)",
+      "threshold_lower": 12570,
+      "threshold_upper": 50270,
+      "rate_lower_to_upper": 0.08,
+      "rate_above_upper": 0.02,
+      "source": "https://www.gov.uk/national-insurance-rates-letters"
+    },
+    "class1_secondary": {
+      "label": "Class 1 Secondary NIC (Employer)",
+      "threshold": 9100,
+      "rate": 0.138,
+      "source": "https://www.gov.uk/national-insurance-rates-letters"
+    }
+  },
+  "surcharges": [],
+  "cess": 0.0,
+  "notes": "2025-26 tax year. Personal Allowance frozen at \u00a312,570 until April 2028 per Autumn Statement 2022. NIC employee rate reduced to 8% from April 2024."
+}

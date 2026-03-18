@@ -1,0 +1,125 @@
+{
+  "country_code": "US",
+  "country_name": "United States",
+  "fiscal_year": "2025",
+  "currency": "USD",
+  "currency_symbol": "$",
+  "last_updated": "2025-01-01",
+  "source_url": "https://www.irs.gov/newsroom/irs-provides-tax-inflation-adjustments-for-tax-year-2025",
+  "status": "PASSED_ACT",
+  "regimes": ["federal"],
+  "filing_statuses": ["single", "married_filing_jointly", "married_filing_separately", "head_of_household"],
+  "brackets": {
+    "federal": {
+      "single": [
+        { "min": 0,       "max": 11925,   "rate": 0.10 },
+        { "min": 11926,   "max": 48475,   "rate": 0.12 },
+        { "min": 48476,   "max": 103350,  "rate": 0.22 },
+        { "min": 103351,  "max": 197300,  "rate": 0.24 },
+        { "min": 197301,  "max": 250525,  "rate": 0.32 },
+        { "min": 250526,  "max": 626350,  "rate": 0.35 },
+        { "min": 626351,  "max": null,    "rate": 0.37 }
+      ],
+      "married_filing_jointly": [
+        { "min": 0,       "max": 23850,   "rate": 0.10 },
+        { "min": 23851,   "max": 96950,   "rate": 0.12 },
+        { "min": 96951,   "max": 206700,  "rate": 0.22 },
+        { "min": 206701,  "max": 394600,  "rate": 0.24 },
+        { "min": 394601,  "max": 501050,  "rate": 0.32 },
+        { "min": 501051,  "max": 751600,  "rate": 0.35 },
+        { "min": 751601,  "max": null,    "rate": 0.37 }
+      ],
+      "married_filing_separately": [
+        { "min": 0,       "max": 11925,   "rate": 0.10 },
+        { "min": 11926,   "max": 48475,   "rate": 0.12 },
+        { "min": 48476,   "max": 103350,  "rate": 0.22 },
+        { "min": 103351,  "max": 197300,  "rate": 0.24 },
+        { "min": 197301,  "max": 250525,  "rate": 0.32 },
+        { "min": 250526,  "max": 375800,  "rate": 0.35 },
+        { "min": 375801,  "max": null,    "rate": 0.37 }
+      ],
+      "head_of_household": [
+        { "min": 0,       "max": 17000,   "rate": 0.10 },
+        { "min": 17001,   "max": 64850,   "rate": 0.12 },
+        { "min": 64851,   "max": 103350,  "rate": 0.22 },
+        { "min": 103351,  "max": 197300,  "rate": 0.24 },
+        { "min": 197301,  "max": 250500,  "rate": 0.32 },
+        { "min": 250501,  "max": 626350,  "rate": 0.35 },
+        { "min": 626351,  "max": null,    "rate": 0.37 }
+      ]
+    }
+  },
+  "standard_deduction": {
+    "single": 15000,
+    "married_filing_jointly": 30000,
+    "married_filing_separately": 15000,
+    "head_of_household": 22500
+  },
+  "deductions": {
+    "401k": {
+      "label": "401(k) / 403(b) Pre-Tax Contributions",
+      "limit": 23500,
+      "source": "https://www.irs.gov/newsroom/401k-contribution-limit-increases"
+    },
+    "IRA_traditional": {
+      "label": "Traditional IRA Contribution",
+      "limit": 7000,
+      "limit_catch_up_50plus": 8000,
+      "source": "https://www.irs.gov/retirement-plans/retirement-plans-faqs-regarding-iras-contributions"
+    },
+    "HSA_single": {
+      "label": "Health Savings Account (Self-Only Coverage)",
+      "limit": 4300,
+      "source": "https://www.irs.gov/publications/p969"
+    },
+    "HSA_family": {
+      "label": "Health Savings Account (Family Coverage)",
+      "limit": 8550,
+      "source": "https://www.irs.gov/publications/p969"
+    },
+    "SALT": {
+      "label": "State and Local Taxes (Itemized, capped)",
+      "limit": 10000,
+      "source": "https://www.irs.gov/taxtopics/tc503"
+    },
+    "mortgage_interest": {
+      "label": "Mortgage Interest Deduction",
+      "limit": null,
+      "source": "https://www.irs.gov/taxtopics/tc505"
+    },
+    "charitable": {
+      "label": "Charitable Contributions",
+      "limit": null,
+      "source": "https://www.irs.gov/taxtopics/tc506"
+    },
+    "student_loan_interest": {
+      "label": "Student Loan Interest",
+      "limit": 2500,
+      "source": "https://www.irs.gov/taxtopics/tc456"
+    }
+  },
+  "rebates": [],
+  "tax_credits": {
+    "child_tax_credit": {
+      "label": "Child Tax Credit",
+      "amount_per_child": 2000,
+      "refundable_limit": 1700,
+      "source": "https://www.irs.gov/credits-deductions/individuals/child-tax-credit"
+    },
+    "earned_income_credit": {
+      "label": "Earned Income Tax Credit (EITC)",
+      "max_amount": 7830,
+      "source": "https://www.irs.gov/credits-deductions/individuals/earned-income-tax-credit"
+    }
+  },
+  "social_security": {
+    "employee_rate": 0.062,
+    "medicare_rate": 0.0145,
+    "wage_base": 176100,
+    "additional_medicare_threshold_single": 200000,
+    "additional_medicare_rate": 0.009
+  },
+  "surcharges": [],
+  "cess": 0.0,
+  "notes": "2025 Tax Year. Standard deduction increased for inflation. TCJA provisions in effect through 2025."
+}
