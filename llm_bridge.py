@@ -11,7 +11,7 @@ PROVIDER_DEFAULTS = {
     "openai": "gpt-4o",
     "anthropic": "claude-3-5-sonnet-20241022",
     "google": "gemini-1.5-pro",
-    "groq": "llama-3.3-70b-versatile",
+    "groq": "openai/gpt-oss-120b",
 }
 
 PROVIDER_MODELS = {
