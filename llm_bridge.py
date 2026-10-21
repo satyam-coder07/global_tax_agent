@@ -18,7 +18,7 @@ PROVIDER_MODELS = {
     "openai": ["gpt-4o", "gpt-4o-mini", "gpt-4-turbo", "gpt-3.5-turbo"],
     "anthropic": ["claude-3-5-sonnet-20241022", "claude-3-opus-20240229", "claude-3-haiku-20240307"],
     "google": ["gemini-1.5-pro", "gemini-1.5-flash", "gemini-2.0-flash"],
-    "groq": ["llama-3.3-70b-versatile", "llama-3.1-8b-instant", "mixtral-8x7b-32768", "gemma2-9b-it"],
+    "groq": ["llama3-70b-8192", "llama3-8b-8192", "mixtral-8x7b-32768"],
 }
 
 
